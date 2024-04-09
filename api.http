@@ -6,3 +6,13 @@ Content-Type: application/json
 	"details": "Um evento para quem é apaixonado por programação",
 	"maximumAttendees": 100
 }
+
+###
+
+POST http://localhost:3333/events/ce1396e9-36e6-4b9f-b9a4-78eb4505ba4e/attendees
+Content-Type: application/json
+
+{
+	"name": "Daiana de Paula",
+	"email": "daiana@gmail.com"
+}
