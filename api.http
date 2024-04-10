@@ -2,17 +2,17 @@ POST http://localhost:3333/events
 Content-Type: application/json
 
 {
-	"title": "Unite Sumit",
-	"details": "Um evento para quem é apaixonado por programação",
-	"maximumAttendees": 100
+	"title": "Novo evento",
+	"details": null,
+	"maximumAttendees": 1
 }
 
 ###
 
-POST http://localhost:3333/events/ce1396e9-36e6-4b9f-b9a4-78eb4505ba4e/attendees
+POST http://localhost:3333/events/1de624aa-e4ab-44e4-adef-539cf3f42857/attendees
 Content-Type: application/json
 
 {
 	"name": "Daiana de Paula",
-	"email": "daiana@gmail.com"
+	"email": "daiana1@gmail.com"
 }
