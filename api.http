@@ -16,3 +16,7 @@ Content-Type: application/json
 	"name": "Daiana de Paula",
 	"email": "daiana@gmail.com"
 }
+
+###
+
+GET  http://localhost:3333/events/325afafd-6465-4ca1-9f01-74c637317d9d
